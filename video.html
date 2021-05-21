@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="stylesheet" href="video.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>A & R Website</title>
+</head>
+
+<body>
+  <!-- Nav bar idea taken from https://codepen.io/emredenx/pen/ojcxl -->
+  <header>
+    <nav id='cssmenu'>
+      <div class="logo"><a href="#top">Pair Project</a></div>
+      <div id="head-mobile"></div>
+      <div class="button"></div>
+      <ul>
+        <li class='active'><a href='home.html'>HOME</a></li>
+        <li><a href='about.html'>ABOUT</a></li>
+        <li><a href='#'>PROFILE</a>
+          <ul>
+            <li><a href='#'>Richard</a>
+              <ul>
+                <li><a href='profile.html'>Profile</a></li>
+                <li><a href='rich_blog.html'>Blog</a></li>
+              </ul>
+            </li>
+            <li><a href='#'>Angus</a>
+              <ul>
+                <li><a href='profile2.html'>Profile</a></li>
+                <li><a href='blog2.html'>Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href='cheat.html'>HTML</a></li>
+        <li><a href='cheat2.html'>PYTHON</a></li>
+        <li><a href='cheat3.html'>JS</a></li>
+        <li><a href='video.html'>VIDEO</a></li>
+        <li><a href='contact.html'>CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div id="wrapper">
+    <video id="home1" width="400" height="300" poster="images/video.jpg" controls="controls" preload="none">
+      <source type="video/mp4" src="corridor.mp4" />
+    </video>
+    <video id="home2" width="400" height="300" poster="images/video.jpg" controls="controls" preload="none">
+      <source type="video/mp4" src="bottleZoom.mp4" />
+    </video>
+    <div class="clear"></div>
+  </div>
+
+</body>
+
+<footer class="footer">
+  &copy; Copyright 2018 HTML.rich
+</footer>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="video.js"></script>
+</body>
+
+</html>
